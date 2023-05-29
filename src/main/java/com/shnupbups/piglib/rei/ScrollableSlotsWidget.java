@@ -91,4 +91,28 @@ public class ScrollableSlotsWidget extends WidgetWithBounds {
 	public List<? extends Element> children() {
 		return widgets;
 	}
+
+	@Override
+	public Element getFocused() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'getFocused'");
+	}
+
+	@Override
+	public boolean isDragging() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'isDragging'");
+	}
+
+	@Override
+	public void setDragging(boolean dragging) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'setDragging'");
+	}
+
+	@Override
+	public void setFocused(Element arg0) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'setFocused'");
+	}
 }
